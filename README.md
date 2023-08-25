@@ -1,5 +1,7 @@
 # getmywindows
 
+常用软件，一键安装！免费安装当下热门软件！~~鲁大师、360 安全卫士、2345 全家桶，一网打尽！~~
+
 本项目假定 `winget` 可用。非常建议使用 Windows Terminal。另请手动安装 Powershell 最新版。
 
 ## 使用前准备
