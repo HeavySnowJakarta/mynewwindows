@@ -84,3 +84,5 @@ function beautifyPwsh{
     Write-Output "oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\zash.omp.json | Invoke-Expression" > $PROFILE
     oh-my-posh init pwsh | Invoke-Expression
 }
+
+beautifyPwsh
