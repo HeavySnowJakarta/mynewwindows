@@ -16,11 +16,19 @@
 winget install --id Microsoft.Powershell --source winget
 ```
 
+### 配置 Git
+
+```
+winget install --id Git.Git
+```
+
 ## 启动脚本
 
 使用 `winkey+x` 并启动终端（管理员），在项目目录下输入：
 
 ```
+git clone https:/github.com/HeavySnowJakarta/getmywindows.git
+cd getmywindows
 pwsh # 在命令提示符或 Windows Powershell 下要先进入新版 Powershell 环境
 .\start.ps1
 ```
