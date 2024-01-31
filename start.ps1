@@ -30,10 +30,15 @@ winget install --id Mozilla.Thunderbird
 winget install --id voidtools.Everything
 winget install --id GeoGebra.CalculatorSuite
 winget install --id Oracle.VirtualBox
+winget install --id Qalculate.Qalculate
+winget install --id Zettlr.Zettlr
 
 winget install --id Tencent.WeChat
 winget install --id Tencent.QQ
 winget install --id NetEase.CloudMusic
+winget install --id Nutstore.Nutstore
+winget install --id Appest.Dida
+winget install --id Tencent.TencentMeeting
 # winget install --id Baidu.BaiduNetdisk
 
 # winget install --id MiXXX.MiXXX # 打碟的，看用不用得上
@@ -56,7 +61,7 @@ winget install --id GNU.Wget2
 $env:PATH = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 
 function Install-VS {
-    winget install --id "Microsoft.VisualStudio.${vs_version}.Community" --override "--passive --config .\.vsconfig"
+    winget install --id "Microsoft.VisualStudio.${vs_version}.Community" --override "--passive --config .\visual-studio\.vsconfig"
 }
 
 function Install-MSYS {
