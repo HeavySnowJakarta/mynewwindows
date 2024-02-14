@@ -48,12 +48,14 @@
                 "audible",
                 "taskbar"
             ],
-            "colorScheme": "Flat",
+            "colorScheme": "ayu_light",
             "experimental.retroTerminalEffect": false,
             "font": 
             {
                 "face": "CaskaydiaCove Nerd Font Mono"
-            }
+            },
+            "opacity": 92,
+            "useAcrylic": true
         },
         "list": 
         [
@@ -84,18 +86,6 @@
                 "hidden": true,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{44688a7a-1e69-520e-94c1-376833e9e21f}",
-                "hidden": true,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{2fd78a99-bf51-591f-b3ac-e8e38f918752}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
             },
             {
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
@@ -210,6 +200,29 @@
             "selectionBackground": "#C7ECEE",
             "white": "#C7ECEE",
             "yellow": "#F9CA24"
+        },
+        {
+            "background": "#FFFFFF",
+            "black": "#8B8B8B",
+            "blue": "#208FCF",
+            "brightBlack": "#7E7E7E",
+            "brightBlue": "#448ADD",
+            "brightCyan": "#13D0CA",
+            "brightGreen": "#08C1BB",
+            "brightPurple": "#972FFF",
+            "brightRed": "#FF4C10",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#E7D01D",
+            "cursorColor": "#717171",
+            "cyan": "#01CBC5",
+            "foreground": "#818181",
+            "green": "#05D8CA",
+            "name": "Mikuconsole",
+            "purple": "#8C65CF",
+            "red": "#F3670A",
+            "selectionBackground": "#717171",
+            "white": "#CCCCCC",
+            "yellow": "#F3D807"
         },
         {
             "background": "#282C34",
@@ -394,8 +407,32 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
+        },
+        {
+            "background": "#FAFAFA",
+            "black": "#000000",
+            "blue": "#41A6D9",
+            "brightBlack": "#323232",
+            "brightBlue": "#73D8FF",
+            "brightCyan": "#7FF1CB",
+            "brightGreen": "#B8E532",
+            "brightPurple": "#FFA3AA",
+            "brightRed": "#FF6565",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFC94A",
+            "cursorColor": "#FF6A00",
+            "cyan": "#4DBF99",
+            "foreground": "#5C6773",
+            "green": "#86B300",
+            "name": "ayu_light",
+            "purple": "#F07178",
+            "red": "#FF3333",
+            "selectionBackground": "#F0EEE4",
+            "white": "#FFFFFF",
+            "yellow": "#F29718"
         }
     ],
+    "theme": "system",
     "themes": [],
     "useAcrylicInTabRow": true
 }
