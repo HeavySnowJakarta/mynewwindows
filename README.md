@@ -22,6 +22,20 @@ winget install --id Microsoft.Powershell --source winget
 winget install --id Git.Git
 ```
 
+`~/.ssh/config` 格式：
+
+```
+Host gh
+  HostName github.com
+  User git
+  IdentityFile C:\Users\<user name>\.ssh\github
+
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile C:\Users\<user name>\.ssh\github
+```
+
 ## 启动脚本
 
 使用 `winkey+x` 并启动终端（管理员），在项目目录下输入：
