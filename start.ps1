@@ -87,6 +87,7 @@ function beautifyPwsh{
     # 生成并配置 Powershell 配置文件
     New-Item -Path $PROFILE -Type File -Force
     Write-Output "oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\zash.omp.json | Invoke-Expression" > $PROFILE
+    Get-Content .\powershell\Profile.ps1 >> $PROFILE
     oh-my-posh init pwsh | Invoke-Expression
 }
 
